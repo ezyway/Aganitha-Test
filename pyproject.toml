@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aganitha-test"
+version = "0.1.0"
+description = ""
+authors = ["Sreyas <cvbiro.career@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "get_papers_NCBI", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.4"
+
+[tool.poetry.scripts]
+get-papers-list = "get_papers_NCBI.get_papers_list:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
