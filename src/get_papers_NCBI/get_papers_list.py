@@ -396,7 +396,7 @@ class PubMedFetcher:
         return "Not available"  # If no email is found in any abstract section
 
 
-    def save_to_csv(self, filename="pubmed_results.csv"):
+    def save_to_csv(self, filename):
         """
         Save the filtered paper metadata to a CSV file.
 
