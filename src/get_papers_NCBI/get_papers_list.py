@@ -490,3 +490,7 @@ def main():
 if __name__ == "__main__":
     # if len(sys.argv) > 1:
         main()
+
+
+# Sample Command
+# python -m poetry run get-papers-list "psychedelic therapy"
