@@ -116,3 +116,4 @@ You can get your key from your NCBI account settings:
 **NCBI Account Settings - API Key Management**
 
 Pass your key using the `-k` or `--api-key` argument.
+
